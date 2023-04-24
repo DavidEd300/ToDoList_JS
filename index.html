@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="js/scripts.js" defer></script>
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body>
     <div class="todo-container">
@@ -20,7 +26,7 @@
             <div class="form-control">
                 <input 
                 type="text"
-                id:="todo-input"
+                id="todo-input"
                 placeholder="O que você vai fazer?"
                 />
                 <button type="submit">
@@ -42,7 +48,7 @@
             <div id="search">
                 <h4>Pesquisar:</h4>
                 <form>
-                    <input type="text" id="search-input" placeholder="Buscar">
+                    <input type="text" id="search-input" placeholder="Buscar"/>
                     <button id="erase-button">
                         <i class="fa-solid fa-delete-left"></i>
                     </button>
@@ -54,32 +60,31 @@
                     <option value="all">Todos</option>
                     <option value="done">Concluídos</option>
                     <option value="todo">A fazer</option>
-                <select/>    
+                </select>    
             </div>
         </div>
         <div id="todo-list">
             <div class="todo">
-                <h3>Estou fazendo alguma coisa...</h3>
                 <button class="finish-todo">
                     <i class="fa-solid fa-check"></i>
                 </button>
                 <button class="edit-todo">
                     <i class="fa-solid fa-pen"></i>
                 </button>
-                <button class="remove-tudo">
+                <button class="remove-todo">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
             <div class="todo">
-                <h3>Estudar</h3>
                 <button class="finish-todo">
                     <i class="fa-solid fa-check"></i>
                 </button>
                 <button class="edit-todo">
                     <i class="fa-solid fa-pen"></i>
                 </button>
-                <button class="remove-tudo">
+                <button class="remove-todo">
                     <i class="fa-solid fa-xmark"></i>
+                </button>
         </div>
     </div>
 </body>
